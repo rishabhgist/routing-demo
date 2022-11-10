@@ -12,16 +12,16 @@
     }
   }
 
-  .contact-form{
+  .contact-form {
     width: 500px;
     margin: auto;
     text-align: left;
-
-    & mat-form-field{
-        width: 100%;
-    }
-    & button{
+    & form {
+      display: flex;
+      flex-direction: column;
+      & button {
         width: 150px;
+      }
     }
   }
 }
