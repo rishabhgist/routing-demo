@@ -16,9 +16,12 @@
     width: 500px;
     margin: auto;
     text-align: left;
-    
+
     & mat-form-field{
         width: 100%;
+    }
+    & button{
+        width: 150px;
     }
   }
 }
