@@ -1,10 +1,29 @@
-# RoutingDemo
+# Routing Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+## Summary
+This application created using angular, it has response navigation that allow user to go from one page to another using routing. By the help of angular routing the app doesn't reload while navigating.
+
+- [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+- [FontAwosme](https://fontawesome.com/icons/) version 6.2.0
+- [Angular Material](https://material.angular.io/) version 14.2.7
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+# Preview
+
+## Home
+
+![](src/assets/img1.PNG)
+
+## About
+![](src/assets/about.PNG)
+
+## Contact
+![](src/assets/contact.PNG)
+
+
 
 ## Code scaffolding
 
