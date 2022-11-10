@@ -1,4 +1,14 @@
-.container{
-    padding: 20px;
-    text-align: center;
+.container {
+  padding: 20px;
+  text-align: center;
+  mat-card-content {
+    margin-top: 50px;
+    
+    & a {
+      margin: 0 10px;
+      & i {
+        font-size: 35px;
+      }
+    }
+  }
 }
