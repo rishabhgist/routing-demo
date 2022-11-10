@@ -3,12 +3,22 @@
   text-align: center;
   mat-card-content {
     margin-top: 50px;
-    
+
     & a {
       margin: 0 10px;
       & i {
         font-size: 35px;
       }
+    }
+  }
+
+  .contact-form{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    
+    & mat-form-field{
+        width: 100%;
     }
   }
 }
