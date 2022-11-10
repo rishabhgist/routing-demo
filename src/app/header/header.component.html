@@ -9,9 +9,9 @@
   >
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Home</a>
-      <a mat-list-item href="#">About</a>
-      <a mat-list-item href="#">Contact</a>
+      <a mat-list-item href="#" routerLink="../home">Home</a>
+      <a mat-list-item href="#" routerLink="../about">About</a>
+      <a mat-list-item href="#" routerLink="../contact">Contact</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -27,6 +27,6 @@
       </button>
       <span>Routing Demo</span>
     </mat-toolbar>
-    <!-- Add Content Here -->
+   <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
